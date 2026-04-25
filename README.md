@@ -32,6 +32,38 @@ This project addresses the problem by developing an automated system capable of 
 - Demonstrate AI’s impact in mental health analytics  
 
 ---
+## Project Structure
+MindScopeAI/
+│
+├── app.py                     # Flask web application (main entry point)
+│
+├── model_training/            # Training scripts and notebooks
+│   ├── bert_training.ipynb
+│   ├── electra_training.ipynb
+│   ├── distilbert_training.ipynb
+│   └── roberta_training.ipynb
+│
+├── assets/                    # Static files (images, plots, UI screenshots)
+│   ├── ui_input.png
+│   ├── ui_output.png
+│   ├── confusion_matrix.png
+│   └── model_comparision.png
+│
+├── templates/                 # HTML templates for Flask UI
+│   └── index.html
+│
+├── static/                    # CSS/JS files (if used)
+│   └── style.css
+│
+├── model/pt                    # Saved model files (not uploaded to GitHub)
+│
+├── documentation.pdf          # Project documentation/report
+│
+├── requirements.txt           # Python dependencies
+│
+├── .gitignore                 # Ignored files
+│
+└── README.md                  # Project documentation
 
 ## 📊 Dataset Description  
 
